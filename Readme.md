@@ -2,7 +2,7 @@
 How to run this solution to get the desiered output?.
 ==========================================================
 
-Run the Tests in TransactionProcessorTests and that will dump the output files in the following folder and validate with expeceted output fro 
+Run the Tests in TransactionProcessorTests and that will dump the output files in the following folder and validate with expected output for 
 three OMS formats
 
 \\WellsFargo.Services.Tests\\bin\\debug\net6.0\Working
