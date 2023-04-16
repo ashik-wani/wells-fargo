@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WellsFargo.Services", "WellsFargo.Services\WellsFargo.Services.csproj", "{4A00FD2C-1D82-41AD-8920-5754E38B453A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WellsFargo.Services.Tests", "WellsFargo.Services.Tests\WellsFargo.Services.Tests.csproj", "{5DECA21F-9EF6-46EE-B5D1-109D9F313319}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A00FD2C-1D82-41AD-8920-5754E38B453A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A00FD2C-1D82-41AD-8920-5754E38B453A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A00FD2C-1D82-41AD-8920-5754E38B453A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A00FD2C-1D82-41AD-8920-5754E38B453A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DECA21F-9EF6-46EE-B5D1-109D9F313319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DECA21F-9EF6-46EE-B5D1-109D9F313319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DECA21F-9EF6-46EE-B5D1-109D9F313319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DECA21F-9EF6-46EE-B5D1-109D9F313319}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E9000A9-A8EB-4A24-A389-C25F307EA732}
+	EndGlobalSection
+EndGlobal
