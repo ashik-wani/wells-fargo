@@ -1,5 +1,5 @@
 ﻿
-How to run this solution to get the desiered output?.
+How to run this solution to get the desired output?
 ==========================================================
 
 Run the Tests in TransactionProcessorTests and that will dump the output files in the following folder and validate with expected output for 
