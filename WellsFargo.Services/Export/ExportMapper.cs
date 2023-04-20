@@ -2,7 +2,7 @@
 
 public class ExportMapper : IExportMapper
 {
-    public IEnumerable<AAAList> MapAAA(GenericList[] list, string workingFolder)
+    public IEnumerable<AAAList> MapAAA(GenericList[] list)
     {
         return from t in list
                where t.OMS == OMS.AAA
@@ -15,7 +15,7 @@ public class ExportMapper : IExportMapper
                };
     }
 
-    public IEnumerable<BBBList> MapBBB(GenericList[] list, string workingFolder)
+    public IEnumerable<BBBList> MapBBB(GenericList[] list)
     {
         return from t in list
                where t.OMS == OMS.BBB
@@ -28,7 +28,7 @@ public class ExportMapper : IExportMapper
                };
     }
 
-    public IEnumerable<CCCList> MapCCC(GenericList[] list, string workingFolder)
+    public IEnumerable<CCCList> MapCCC(GenericList[] list)
     {
         return from t in list
                where t.OMS == OMS.CCC

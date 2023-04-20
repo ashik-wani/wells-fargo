@@ -18,15 +18,15 @@ public class OrderExporterService : IOrderExporterService
         switch (oms)
         {
             case OMS.AAA:
-               var aaaList = exportMapper.MapAAA(list, workingFolder);
+               var aaaList = exportMapper.MapAAA(list);
                await csvWriteService.WriteAsync(workingFolder, $"aaa.{OMS.AAA}", aaaList);
                 break;
             case OMS.BBB:
-                var bbblist = exportMapper.MapBBB(list, workingFolder);
+                var bbblist = exportMapper.MapBBB(list);
                 await csvWriteService.WriteAsync(workingFolder, $"bbb.{OMS.BBB}", bbblist, true, "|");
                 break;
             case OMS.CCC:
-                var cccList = exportMapper.MapCCC(list, workingFolder);
+                var cccList = exportMapper.MapCCC(list);
                 await csvWriteService.WriteAsync(workingFolder, $"ccc.{OMS.CCC}", cccList, false);
                 break;
             default:
